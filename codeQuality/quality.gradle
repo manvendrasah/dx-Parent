@@ -1,0 +1,46 @@
+apply plugin: 'checkstyle'
+apply plugin: 'pmd'
+apply plugin: 'findbugs'
+
+task checkstyle(type: Checkstyle) {
+    description 'Check code standard'
+    group 'verification'
+
+    configFile file('./codeQuality/checkstyle.xml')
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    classpath = files()
+    ignoreFailures = false
+}
+
+task pmd(type: Pmd) {
+    description 'Run PMD'
+    group 'verification'
+    ruleSetFiles = files("./codeQuality/pmd.xml")
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+    ignoreFailures = false
+}
+
+task findbugs(type: FindBugs) {
+    description 'Run findbugs'
+    group 'verification'
+    classes = files("$project.buildDir/intermediates/classes")
+    source 'src'
+    classpath = files()
+    effort 'max'
+    reportLevel = "high"
+    excludeFilter file('./codeQuality/findbugs-exclude.xml')
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+    ignoreFailures = false
+}

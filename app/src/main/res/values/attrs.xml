@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference"/>
+        <attr name="metaButtonBarButtonStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontTextView">
+        <attr name="font_tv_typeface" format="string"/>
+        <attr name="font_tv_isBold" format="boolean"/>
+        <attr name="font_tv_isThin" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontEditText">
+        <attr name="font_et_typeface" format="string"/>
+        <attr name="font_et_isBold" format="boolean"/>
+    </declare-styleable>
+
+</resources>

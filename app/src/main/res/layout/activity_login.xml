@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="640">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="68"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="32"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/xseed_logo"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="24"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="150"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/kids"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="39"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:background="@color/grey_splash_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="326"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/rectangle_input">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/sp_login_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@android:color/transparent"
+                    android:elevation="0dp"
+                    android:paddingLeft="0dp"
+                    android:popupBackground="@drawable/rectangle_input_solid"
+                    android:spinnerMode="dropdown"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/white"
+                    android:padding="10dp"
+                    android:src="@drawable/drop_downarrow"/>
+            </RelativeLayout>
+
+            <com.xseed.dx.parent.customView.FontEditText
+                android:id="@+id/tv_login_phone"
+                style="@style/InputBoxStyle"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_marginTop="22dp"
+                android:digits="@string/allowed_numbers"
+                android:ems="10"
+                android:hint="@string/enter_mobile"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:maxLength="15"/>
+
+            <com.xseed.dx.parent.customView.FontTextView
+                android:id="@+id/tv_login_error_ph"
+                style="@style/ErrorTextStyle"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="32dp"
+                android:text="@string/err_msg_phone"
+                android:visibility="invisible"/>
+
+            <com.xseed.dx.parent.customView.FontTextView
+                android:id="@+id/tv_login_login"
+                style="@style/SolidButtonStyle"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/login"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

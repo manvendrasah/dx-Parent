@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333844</color>
+    <color name="colorPrimaryDark">#292d36</color>
+    <color name="colorAccent">#cccccc</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="floating_label">#bebebe</color>
+    <!--Dashboard-->
+    <color name="colorDashboardBackgrnd">#e4e6ea</color>
+    <color name="colorDashboardNoInfo">#dcba7c</color>
+    <color name="colorDashboardProgressBckgrnd">#f2f2f2</color>
+    <color name="colorDashboardProgressMath">#ea3200</color>
+    <color name="colorDashboardProgressScience">#02948b</color>
+    <color name="colorDashboardProgressCnceptual">#fd9152</color>
+    <color name="colorDashboardProgressPrblmSlvng">#fbc601</color>
+    <color name="colorDashboardProgressPrcntge">#333333</color>
+    <color name="colorDashboardModule">#666666</color>
+    <color name="colorDashboardTipTitle">#1778cb</color>
+    <color name="colorDashboardTipHeader">#ef5350</color>
+    <color name="colorDashboardTipSubHeader">#26a69a</color>
+    <color name="colorDashboardMenuHome">#fa7044</color>
+
+    <!--LOGIN-->
+    <color name="colorLoginBtnBckgrnd">#26c6da</color>
+    <color name="FF6478C1">#FF6478C1</color>
+    <color name="colorErrorColor">#ef5350</color>
+    <color name="blue_button">#0fa2f9</color>
+    <color name="grey_splash_line">#dedede</color>
+    <color name="red_header">#e14a5c</color>
+    <color name="grey8d">#8d8d8d</color>
+    <color name="greyd2">#d2d2d2</color>
+    <color name="green_progress">#89d866</color>
+    <color name="grey60">#606060</color>
+    <color name="red_error">#9d0000</color>
+    <color name="red_error2">#e14a5c</color>
+    <color name="grey_otp_progress">#ececec</color>
+    <color name="green_otp_progress">#89d866</color>
+    <color name="grey_text_darkbg">#727171</color>
+    <color name="grey85">#858585</color>
+    <color name="grey_report_locked">#9b9a9a</color>
+    <!--SIGN IN-->
+    <color name="colorEnterPwd">#444a5a</color>
+    <!--assessment scan result-->
+    <color name="colorEditTextInput">#4d4d4d</color>
+    <color name="colorDisabled">#cccccc</color>
+
+    <color name="green_logout">#459991</color>
+    <color name="divider">#FF868891</color>
+
+    <!--Parent App Color Codes-->
+
+    <color name="primaryDark">#056572</color>
+    <color name="primarLight">#0C7888</color>
+    <color name="secondaryButton">#FE7751</color>
+    <color name="secondaryLabel">#26C6DA</color>
+    <color name="primaryGreyDark">#808080</color>
+    <color name="primaryGreyLight">#E6E6E6</color>
+    <color name="grey_tab">#858484</color>
+    <color name="grey7b">#7b7b7b</color>
+    <color name="green_report">#83ca1d</color>
+    <color name="grey_dark56">#565656</color>
+    <color name="grey_dark57">#575757</color>
+    <color name="grey_report_divider_dark">#cfcfcf</color>
+    <color name="grey_report_divider_light">#f2f2f2</color>
+    <color name="red_can_improve">#ee8989</color>
+    <color name="yellow_improvement_bar">#ffd145</color>
+    <color name="green_improvement_bar">#9fe33e</color>
+
+    <color name="grey_scan_result_bg">#eeeeee</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#44474d</color>
+    <color name="primaryGreyLight_50_opac">#50E6E6E6</color>
+    <color name="F53E61">#F53E61</color>
+
+    <color name="red_block">#ff5974</color>
+    <color name="grey_block_bg_border">#dbdbdb</color>
+    <color name="green_progress_horizontal">#79e05d</color>
+    <color name="grey71">#717171</color>
+    <color name="grey_divider_shadow">#e2e0e0</color>
+    <color name="cfcfcf">#CFCFCF</color>
+    <color name="greycb">#cbcbcb</color>
+    <color name="greyb2">#b2b2b2</color>
+</resources>

@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">XSEED Parent</string>
+    <string name="progress_msg">Please wait..</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_logo_name">XSEED</string>
+    <string name="app_logo_name_name2">PARENT</string>
+    <string name="generic_error">There is some problem retrieving data.Please try after sometime</string>
+    <string name="error_internet_connection">Check your internet connection and try again</string>
+    <string name="no_internet_connection">No Internet Connection!</string>
+    <!--Splash-->
+    <string name="already_signup">Already Signed up</string>
+    <!--login xml-->
+    <string name="joinnow">Join now</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="done">Done</string>
+    <string name="err_msg_email">Enter valid email</string>
+    <string name="err_msg_tnc">Please agree to the terms and conditions</string>
+    <string name="err_msg_pwd">Enter the password</string>
+    <string name="hint_phone">Mobile</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pwd">Password</string>
+    <string name="allowed_numbers">0123456789</string>
+    <string name="valid_user_error">The entered User name is not recognised by the system</string>
+    <string name="login_privacy_policy_statement">I agree to the <u>terms and conditions</u></string>
+    <string name="choose_country">Choose country</string>
+    <string name="password_sent">One time password has been sent to your mobile no. </string>
+    <!--Sign Up-->
+    <string name="msg_verifying_otp">Verifying OTP..</string>
+    <string name="verify_profile">Verify Profile</string>
+    <string name="hint_cnf_pwd">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="choose_password">Choose Password</string>
+    <string name="new_password">New Password</string>
+    <string name="password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_password_mismatch">Password mismatch</string>
+    <string name="error_terms_unchecked">Terms and condition is not checked</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="verify">Verify your\n Contact</string>
+    <string name="verify.subheading">Verify your</string>
+    <string name="verify.otp">Waiting for OTP</string>
+    <string name="manual">Enter manually</string>
+    <string name="resend">Resend OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="change_password">Change Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="change_password_min">Minimum 8 Characters</string>
+    <string name="re_type_password">RE-TYPE-PASSWORD</string>
+    <string name="Skip">Skip</string>
+    <string name="creat_profile">Create Profile</string>
+    <string name="add_photo">Add Profile picture</string>
+    <string name="add_course_subject">Add Courses and Subjects</string>
+    <string name="otp_success">You will receive OTP soon</string>
+    <string name="transition_name_shared">transition:shared_element</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="send_otp">Send OTP</string>
+
+    <!--Assessment Scan-->
+    <string name="profile">Profile</string>
+    <string name="otp">OTP</string>
+    <string name="scan">Scan</string>
+    <string name="add_child">Add Child</string>
+    <string name="tap_to_scan">Tap to scan Passcode</string>
+    <string name="err_scan">Invalid passcode</string>
+    <string name="enter_login_password">Enter Login Password</string>
+    <string name="enter_login_password_add_child">Enter Login Password to Add Child</string>
+    <string name="password_scan_text">Enter login password to see scan result</string>
+    <string name="passcode_text">Enter passcode to add child</string>
+
+    <!--Assessment Scan Result-->
+    <string name="err_msg_name">Enter name</string>
+    <string name="passcode">Passcode</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_class">Class</string>
+    <string name="hint_section">Section</string>
+    <string name="hint_school">School</string>
+    <string name="save">Save</string>
+    <string name="tag_name">Name :</string>
+    <string name="tag_grade">Grade :</string>
+    <string name="tag_section">Section :</string>
+    <string name="tag_school">School :</string>
+    <string name="scan_result">Scan Result</string>
+    <!--QRCodeScanner-->
+    <string name="ok">Ok</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+
+    <!--Select zone-->
+    <string name="error_no_child">No child added !</string>
+    <string name="select_student">Select Student</string>
+    <string name="select_profile">Select your Profile</string>
+
+    <!--Main-->
+    <string name="camera_denial">Camera permission is required</string>
+    <string name="update_now">Update Now</string>
+    <string name="msg_app_update">A new version of the app is available for download</string>
+    <string name="app_update">App Update</string>
+    <string name="skip">Skip</string>
+    <!--Home-->
+    <string name="dashboard">DASHBOARD</string>
+    <string name="timeline">TIMELINE</string>
+    <string name="report">Report</string>
+    <!--DashBoard-->
+    <string name="home">Home</string>
+    <string name="manage_child">Manage Child</string>
+    <string name="about">About</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="logout">Logout</string>
+    <string name="no_info">NO INFORMATION TO SHOW</string>
+    <string name="pull_to_refresh">Pull down to refresh Results</string>
+    <string name="math">Math</string>
+    <string name="science">Science</string>
+    <string name="conceptual_understanding">Conceptual Understanding</string>
+    <string name="problem_solving">Applied Thinking</string>
+    <string name="feedback">feedback</string>
+    <!--Profile-->
+    <string name="choose_image_from">Choose Image From</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="storage_permission_denial_msg">In order to store  your profile picture SD card permission is needed.Please grant the permission in settings</string>
+    <!--About-->
+    <string name="copyright">\n \u00a9 2016 XSEED\nAll rights reserved</string>
+    <string name="about_app">XSEED Parent App lets you connect with your child for getting to know his progress in the XSEED 5-Step Digital Classroom. The app will give you detailed insights on subject knowledge and skills of your child.
+\n\nIf you want XSEED 5-Step Digital Classroom to be in your school, call us on 18001027200 or click on this link <a href="http://xseededucation.com/get-in-touch-with-xseed">http://xseededucation.com/get-in-touch-with-xseed</a></string>
+    <!--Manage Child-->
+    <string name="delete">Delete</string>
+    <string name="delete_msg">Deleting the child will delete all information from your App.Do you really want to delete? </string>
+    <string name="get_result">GET RESULT</string>
+    <string name="block_score">BLOCK SCORE</string>
+    <string name="report_card">REPORT CARD</string>
+    <string name="question_1">Question 1</string>
+    <string name="question_2">Question 2</string>
+    <string name="correct_ans">Correct Answer:</string>
+    <string name="tip">tip</string>
+    <string name="monthly_report">MONTHLY REPORT</string>
+    <string name="weekly_report">WEEKLY REPORT</string>
+    <string name="plz_select_answer">Please Select Answer</string>
+
+    <string name="test">TEST</string>
+    <string name="no_results_found">No Results Found</string>
+    <string name="profile_updated_successfully">Profile updated successfully</string>
+    <string name="or">OR</string>
+    <string name="enter_manually">ENTER MANUALLY</string>
+    <string name="enter_child_qr_code">Enter Child Passcode</string>
+    <string name="garde_lable">"Grade "</string>
+    <string name="go">Go</string>
+
+    <string name="no_student_found">No student found</string>
+    <string name="student">Student</string>
+    <string name="add_new">Add New</string>
+    <string name="add_new_student">Add New Student</string>
+    <string name="loading">Loading...</string>
+    <string name="try_again">Try Again</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="loading_child_data">Loading child data...</string>
+
+    <!-- Student Zone Screen-->
+    <string name="content">Content</string>
+    <string name="reports">Reports</string>
+    <string name="unlock">Unlock</string>
+    <string name="medals">Medals</string>
+    <string name="start">Start</string>
+    <string name="resume">Resume</string>
+    <string name="unlock_here">Unlock Here</string>
+    <string name="unlocked_on">Unlocked on : %1$s</string>
+    <string name="unlock_desc">Get scan code from the \nworksheet in DX journal</string>
+    <string name="unlock_desc_opened">Complete the open module\n to unlock  a new %1$s module</string>
+    <string name="unlock_homework">Unlock %1$s homework</string>
+    <string name="unlock_password_text">To unlock enter the\nParent login password</string>
+    <string name="play_again">Play Again</string>
+    <string name="block_info_dialog_text">Your last unlocked module was %1$d\n and now you are unlocking %2$d.\nAre you sure you want to proceed?</string>
+    <string name="block_info_dialog_text_firsttime">Your have not unlocked any module \n and now you are unlocking %1$d.\nAre you sure you want to proceed?</string>
+    <string name="scan_again">Scan Again</string>
+
+    <!--Parent Zone-->
+
+    <string name="title_maths">Maths</string>
+    <string name="title_science">Science</string>
+    <string name="title_skills">Skills</string>
+    <string name="exit_confirmation_text">You are leaving Parent Zone and \ngoing back to Student Zone.</string>
+    <string name="exit_confirmation_bttn_txt">Go to Student Zone</string>
+    <string name="previous">Previous</string>
+    <string name="question">Question %1$d/%2$d</string>
+
+
+    <string name="wrong_subject_journal_unlocked1">You are using a wrong DX Journal.</string>
+    <string name="before">Before</string>
+    <string name="after">After</string>
+    <string name="before_tag">Before:</string>
+    <string name="after_tag">After:</string>
+    <string name="scope_improvement">Can Improve</string>
+    <string name="details">Details</string>
+    <string name="tips">Tips</string>
+    <string name="not_applicable">NA</string>
+    <string name="enter_loginpwd_report">Enter Login Password to see Progress Report</string>
+    <string name="change_avatar">Change Avatar</string>
+    <string name="choose_avatar">Choose Avatar</string>
+
+    <string name="err_msg_phone">Invalid mobile number</string>
+    <string name="enter_mobile">Enter Mobile number</string>
+    <string name="retry_caps">RETRY</string>
+    <string name="welcome">Welcome</string>
+    <string name="see_report">See Report</string>
+    <string name="not_my_account">Not my account</string>
+    <string name="welcome_txt">Your best friend for gaining insights to your child\'s performance.</string>
+</resources>

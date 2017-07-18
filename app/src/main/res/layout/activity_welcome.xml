@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="640">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="148"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+        <com.xseed.dx.parent.customView.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="@color/grey8d"
+            android:textSize="15sp"/>
+
+        <com.xseed.dx.parent.customView.FontTextView
+            android:id="@+id/tv_welcome_parent_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Manvendra Sah"
+            android:textColor="@color/grey_dark56"
+            android:textSize="28sp"
+            app:font_tv_isThin="true"/>
+
+    </LinearLayout>
+
+    <com.xseed.dx.parent.customView.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_weight="80"
+        android:gravity="center_horizontal|top"
+        android:text="@string/welcome_txt"
+        android:textColor="@color/grey8d"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:id="@+id/iv_welcome_child_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="135"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/kids"/>
+
+    <com.xseed.dx.parent.customView.FontTextView
+        android:id="@+id/tv_welcome_child_name"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="155"
+        android:ellipsize="end"
+        android:gravity="center_horizontal|top"
+        android:maxLines="1"
+        android:paddingTop="12dp"
+        android:text="Ben Affleck"
+        android:textColor="@color/red_header"
+        android:textSize="17sp"
+        app:font_tv_isBold="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="122"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.xseed.dx.parent.customView.FontTextView
+            android:id="@+id/tv_welcome_report"
+            style="@style/SolidButtonStyle"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/see_report"/>
+
+        <com.xseed.dx.parent.customView.FontTextView
+            android:id="@+id/tv_welcome_wrong_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/not_my_account"
+            android:textColor="@color/grey8d"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>
